@@ -1,12 +1,12 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library soriya_flutter;
 
-export 'src/soriya_flutter_base.dart';
-
 //extension
-// export 'src/extension/soriya_box_decoration_extension.dart';
 export 'src/extension/soriya_box_decoration_extension.dart';
+export 'src/extension/soriya_object_extension.dart';
+export 'src/extension/soriya_string_extension.dart';
+export 'src/extension/soriya_widget_extension.dart';
+
+//exception
+export 'src/exception/soriya_exception.dart';
 
 // TODO: Export any libraries intended for clients of this package.
