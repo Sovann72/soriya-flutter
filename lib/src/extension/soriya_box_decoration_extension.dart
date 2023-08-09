@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 
 extension SoriyaBoxDecoration on BoxDecoration {
-  //border
   BoxDecoration get borderred =>
       copyWith(border: Border.all(color: Colors.red));
   BoxDecoration get borderblue =>
