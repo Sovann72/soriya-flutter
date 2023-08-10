@@ -9,4 +9,7 @@ export 'src/extension/soriya_widget_extension.dart';
 //exception
 export 'src/exception/soriya_exception.dart';
 
+//mixin
+export 'src/mixin/onboarding/style1/onboarding_style1_mixin.dart';
+
 // TODO: Export any libraries intended for clients of this package.

@@ -8,7 +8,7 @@ mixin OnboardingPageMixin<T extends StatefulWidget> on State<T> {
   late final String content;
   late final Widget img;
 
-  ///size is the current size of the screen, you'll have to pass in size by [MediaQuery], ex: MediaQuery.of(context).size
+  ///[size] is the current size of the screen, you'll have to pass in size by [MediaQuery], ex: MediaQuery.of(context).size
   Widget layout(Size size, int index,
       {Color? backgroundColor, Color? textColor, Gradient? gradient}) {
     if (backgroundColor != null && gradient != null) {
